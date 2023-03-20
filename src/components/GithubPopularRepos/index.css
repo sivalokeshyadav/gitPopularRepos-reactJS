@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.repositories-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.failure-view-img {
+  width: 400px;
+  height: 400px;
+}
+
+.failure-view {
+  color: #1e293b;
+  font-family: 'Lobster';
+  font-weight: bold;
+}
+
+.languages-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
