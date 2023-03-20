@@ -15,7 +15,7 @@ const RepositoryItem = props => {
           alt="stars"
           className="review-img"
         />
-        <p className="review-element">{starsCount}</p>
+        <p className="review-element">{starsCount} stars</p>
       </div>
       <div className="review-container">
         <img
@@ -23,7 +23,7 @@ const RepositoryItem = props => {
           alt="forks"
           className="review-img"
         />
-        <p className="review-element">{forksCount}</p>
+        <p className="review-element">{forksCount} forks</p>
       </div>
       <div className="review-container">
         <img
@@ -31,7 +31,7 @@ const RepositoryItem = props => {
           alt="open issues"
           className="review-img"
         />
-        <p className="review-element">{issuesCount}</p>
+        <p className="review-element">{issuesCount} issues</p>
       </div>
     </li>
   )

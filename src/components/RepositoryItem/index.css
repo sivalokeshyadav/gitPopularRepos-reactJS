@@ -1,1 +1,28 @@
 /* Write your CSS here */
+.repository-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#0f172a, #f8f8ff);
+  border-radius: 25px;
+  box-shadow: blanchedalmond;
+  padding: 30px;
+}
+
+.image-element {
+  width: 120px;
+  height: 100px;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.review-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
